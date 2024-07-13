@@ -1,0 +1,90 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 1.11vw 3vw 1.11vw 1.5vw;
+}
+.introheader{
+    text-decoration: none;
+    display: flex;
+    margin-top: 5vw;
+    background-color: #E0E0E0;
+    width: 16vw;
+    font-family: "Karma";
+    font-size: 2.5vw;
+    border-radius: 0px 0.55vw 0.55vw 0.55vw;
+    box-shadow: -0.3vw 0.4vw 0.27vw #717171; 
+    border-style: solid black;
+    border-width: 0.1vw; 
+    padding: 0.6vw 3vw; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.17vw;
+}
+
+@media screen and (max-width:760px) {
+    .introheader{
+        width: 36vw !important;
+        font-size: 4.5vw !important;
+        border-radius: 0px 1vw 1vw 1vw !important;
+    }
+    .introbox{
+        font-size: 2.8vw !important;
+    border-radius: 4vw !important;
+    padding: 6vw !important;
+    letter-spacing: 0.34vw !important;
+    line-height: 4vw !important;
+    }
+    #one,#two,#three{
+        height: 15vw !important;
+    }
+    .rowarrange{
+        gap: 7vw !important;
+        padding: 0vw 10vw !important;
+    }
+}
+
+.introbox{
+    background-color: #E0E0E0;
+    font-family: "Karma";
+    font-size: 1.3vw;
+    border-radius: 2vw;
+    padding: 3vw;
+    letter-spacing: 0.17vw;
+    line-height: 2vw;
+}
+.introtext{
+    padding: 1.3vw 2vw;
+}
+
+.colarrange{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vw;
+    align-items: center ;
+    gap: 5vw;
+}
+.rowarrange{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+
+#one{
+    background-color: #695278;
+}
+#two:hover{
+    background-color: #3D3A3A;
+}
+#three:hover{
+    background-color: #3D3A3A;
+}
+#two{
+    background-color: #32495D;
+    cursor: pointer;
+}
+#three{
+    background-color: #314645;
+    cursor: pointer;
+}

@@ -1,0 +1,206 @@
+.mainHeadertile{
+    text-decoration: none;
+    display: flex;
+    margin-top: 5vw;
+    width: 20vw;
+    font-family: "Karma";
+    font-size: 2.2vw;
+    border-radius: 0px 0.55vw 0.55vw 0.55vw;
+    box-shadow: -0.3vw 0.4vw 0.27vw #717171; 
+    border-style: solid black;
+    border-width: 0.1vw; 
+    padding: 0.6vw 3vw; 
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.17vw;
+    background-color: #32495D;
+    color: white;
+    align-self: flex-start;
+}
+
+@media screen and (max-width:760px) {
+    .mainHeadertile{
+        align-self: center !important;
+        font-size: 3.2vw !important;
+        width: 30vw !important;
+        margin-top: 10vw !important;
+    }
+    .levelnames{
+        width: 22.8vw !important;
+        height: 6.83vw !important;
+        font-size: 3.2vw !important;
+    }
+    #mobprofpic{
+        width: 10vw !important;
+        height: 9.7vw !important;
+        align-self: center;
+    }
+    .details{
+        height: 50vw !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 4vw ;
+        margin-top: 10vw !important;
+    }
+    .description{
+        position: relative !important;
+        width:80vw !important;
+        height: 60vw !important;
+        font-size:2.8vw !important;
+    }
+    .slider-div{
+        height:68vw !important ;
+        width: 85vw !important;
+        margin-left: 5vw !important;
+        margin-top: 10vw !important;
+    }
+    .slider-image{
+        width: 86vw !important;
+        height: 65vw !important;
+    }
+    .mobileslider-div{
+        height: 80vw !important;
+        width: 40vw !important;
+        margin-left: 5vw !important;
+        margin-top: 6vw !important;
+    }
+    .mobslider-image{
+        width: 40vw !important;
+        height: 80vw !important;
+        border-radius: 5.2vw !important;
+    }
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+    letter-spacing: 0.17vw;
+    font-family: "Karma";
+    font-size: 1.2vw;
+    position: absolute;
+    width: 28vw; 
+    height: 30vw;
+    background-color: #D9D9D9;
+    box-shadow: -0.3vw 0.4vw 0.27vw #717171;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 0px 0.55vw 0.55vw 0.55vw;
+    padding: 1vw 3vw; 
+}   
+
+.slidertitles{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.mobslider-image{
+    width: 20vw;
+    height: 40vw;
+    border-radius: 3.2vw;
+}
+
+.mobileslider-div{
+    padding: 2vw 2vw;
+    width: 20vw; 
+    margin-left: 35vw;
+    margin-top: 2vw;
+    height: 43vw;
+    border-radius: 3vw;
+}
+
+.mobslider-image:focus{
+    outline: none !important;
+    border: transparent !important;
+}
+/* .mobslider-image:active{
+    outline: none !important;
+    border: none !important;
+} */
+
+.slider-div{
+    padding: 2vw 2vw;
+    background-color: #C0BABA;
+    width: 45vw; 
+    margin-left: 23vw;
+    height: 28vw;
+    margin-top: 2vw;
+    border-radius: 3vw;
+} 
+
+.slick-dots{
+    bottom: -3.47vw !important;
+}
+
+@media screen and (max-width:760px) {
+    .slick-dots li{
+        margin: -4vw 0vw !important;
+    }
+}
+.slick-dots li button:before{
+    font-size: 1.5vw !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #696969 !important;
+}
+
+.slider-image{
+    width: 40.7;
+    height: 25vw;
+}
+.sliderimage-wrapper{
+    
+}
+
+.line{
+    margin-left: 0;
+    margin-right: 0;
+    border-color: black;
+    width: 100%;
+}
+
+h3{
+    font-family: "Karma";
+    font-weight: 600;
+}
+
+.webdevpage{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 1.11vw 3vw 1.11vw 1.5vw;
+}
+
+.levelnames{
+    display: flex;
+    width: 21.8vw;
+    height: 3.83vw;
+    border-radius: 1.11vw;
+    font-size: 2.2vw;
+    box-shadow: -0.2vw 0.3vw 0.27vw #717171; 
+    border-style: solid black;
+    border-width: 0.1vw; 
+    font-family: "Karma";
+    letter-spacing: 0.17vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* @font-face {
+    font-family: "Karma";
+    src: url("./Fonts/Karma/Karma-Regular.ttf");
+  }
+@font-face {
+    font-family: "Karma";
+    src: url("./Fonts/Karma/Karma-Light.ttf");
+} */

@@ -1,0 +1,148 @@
+.Head{
+    display: flex;
+    flex-direction: column;
+    gap: 2.22vw;
+    padding: 1.5vw;
+}
+
+.sidebar{
+    display: none;
+    flex-direction: column;
+    background-color: #3D3A3A;
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    gap: 10vw;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    align-items: center;
+    padding: 1.5vw;
+}
+.sideitem{
+    text-decoration: none;
+    color: white;
+    font-size: 4.5vw;
+    font-family: "Karma";
+    background-color:#717171;
+    padding: 1vw;
+}
+.sideitem:hover{
+    cursor: pointer;
+    background-color:#3D3A3A;
+    border-bottom: solid 0.5vw white;
+}
+
+.sidediv{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+.close{
+    align-self: flex-start;
+}
+
+.menuicon{
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+}
+
+.navsect{
+    width: 40vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #3D3A3A;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+.headdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-self: center;
+}
+
+@media screen and (max-width:760px) {
+    /* .headdiv{
+        align-self: flex-start;
+    } */
+     .profilepic{
+        height: 21vw !important;
+        width: 20.7vw !important;
+     }
+    .headchatbox{
+        width: 64.5vw !important;
+        height: 21vw !important;
+    }
+    .chatText:nth-child(1){
+        font-size: 4.2vw !important;
+    }
+    .chatText:nth-child(2){
+        font-size: 2.5vw !important;
+        width: 52.27vw !important;
+
+    }
+    .headdiv{
+        margin-top: 6vw !important;
+    }
+    .Head{
+        margin-top: 4vw;
+    }
+}
+
+.navitem{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #FFFBFB;
+    border-style: solid;
+    border-width: 0 0.13vw 0 0;
+    font-family: KarmaRegular;
+    padding-right: 2vw;
+    padding-left: 1vw;
+}
+.navitem:nth-child(3){
+    border: none;
+}
+.profilepic{
+    height: 11vw;
+    width: 10.7vw;
+    border-radius: 50%;
+}
+.headchatbox{
+    display: flex;
+    flex-direction: column;
+    width: 44.5vw;
+    height: 11vw;
+    background-color: #E0E0E0;
+    justify-content: center;
+    gap: 0.5rem;
+    box-shadow: -0.3vw 0.4vw 0.27vw #717171;
+    border-style: solid;
+    border-width: 0.12vw 0px 0px 0.12vw;
+    border-radius: 0px 0.55vw 0.55vw 0.55vw;
+}
+.Typewriter__cursor{
+    display: none;
+}
+
+.chatText:nth-child(1){
+    font-size: 2.22vw;
+    font-family: "Karma";
+    letter-spacing: 0.208vw;
+    margin-left: 2.22vw;
+}
+.chatText:nth-child(2){
+    font-size: 0.97vw;
+    letter-spacing: 0.208vw;
+    margin-left: 2.22vw;
+    font-family: KarmaRegular;
+    padding: 0.0138vw;
+    color: #0C6190;
+    border: solid black 1px;
+    width: 22.27vw;
+    padding:0.722vw 0.722vw 0.722vw 1.11vw;
+}
