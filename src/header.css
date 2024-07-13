@@ -92,6 +92,14 @@
     .Head{
         margin-top: 4vw;
     }
+    .hire{
+        font-size: 4vw !important;
+    }
+    .hireme{
+        width: 20vw !important;
+        padding: 1.5vw !important;
+        top: 4vw !important;
+    }
 }
 
 .navitem{
@@ -145,4 +153,27 @@
     border: solid black 1px;
     width: 22.27vw;
     padding:0.722vw 0.722vw 0.722vw 1.11vw;
+}
+
+.hireme{
+    padding: 0.5vw;
+    position: absolute;
+    width: 10vw;
+    background-color: #513232;
+    color: white;
+    right: 5vw;
+    top: 1.5vw;
+    text-align: center;
+    border-radius: 4vw;
+}
+.hireme:hover{
+    cursor: pointer;
+    background-color: #0C6190;
+}
+.hire{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: "Karma";
+    font-weight: 500;
+    color: white;
 }

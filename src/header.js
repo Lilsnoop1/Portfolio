@@ -20,6 +20,9 @@ function HeadSection(){
     }
      return(
         <div className="Head">
+        <div className="hireme">
+            <a className="hire" href="mailto:zulfiqarammar8@gmail.com">Hire Me</a>
+        </div>
             {isMobile?<img src={menu} className="menuicon" onClick={changeclick}/>:null}
             <motion.div className="sidebar" variants={
                 {
